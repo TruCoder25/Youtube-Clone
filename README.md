@@ -109,5 +109,12 @@ o Responsive design allows cards to adjust on different screen sizes.
 
 ![Screenshot from 2025-03-22 09-23-54](https://github.com/user-attachments/assets/a3dc5d35-59a2-4e69-9a42-6796877cfc55)
 
+When Menu Icon is clicked the feed looks as <br>
+<br>
+![Screenshot from 2025-03-22 09-36-41](https://github.com/user-attachments/assets/54584581-7254-4621-abe5-fe89a3bbeb93)
+
+
+
+
 <b>Key Point: </b>
 The Feed component dynamically renders multiple VideoCard components.
