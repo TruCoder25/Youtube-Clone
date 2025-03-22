@@ -65,7 +65,7 @@ iii) The main in css of sidebar is <b>overflow-y: auto; </b> which adds a vertic
 
 ## Here Comes the Props in SideBar (Whenever user clicks on menu icon the side bar should minimize)
 
-Here is the [App.jsx File](App.jsx)
+Here is the [App.jsx File](src/App.jsx)
 <br> 
 In this we have used the useState----> Which is of boolean type because it is easy to toggle
 <br>
