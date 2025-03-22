@@ -6,8 +6,8 @@ This an Youtube Clone using react
 npm install vite@latest
 ```
 They ask for project name give it <br>
-Choose React <br>
-Choose JavaScript <br>
+Select React <br>
+Select JavaScript <br>
 
 ### After Cloning Project
 
@@ -48,8 +48,9 @@ iii) nav-right <br>
 
   ![Screenshot from 2025-03-22 08-51-47](https://github.com/user-attachments/assets/88325fe9-6af7-4598-b2d2-cfccea026442)
 
+<b>Key Point: </b>
 Here the main thing is to know that padding is set to <b>10px 2%</b>
-the 2% adjust itself as the nav require space
+padding: 10px 2% ensures dynamic spacing across screen sizes.
 
 ### 2.Creating Sidebar
 
@@ -78,4 +79,35 @@ Props are sent in the Navbar(state variable)
 <br>
  ![Screenshot from 2025-03-22 09-09-33](https://github.com/user-attachments/assets/a90da0ef-fe22-4015-8661-9baf0ec699d1)
 
-<b>Props plays a important role here in side bar</b>
+<b>Key Point: </b>Props and state (useState) control sidebar visibility, demonstrating React’s one-way data flow.
+
+### 3.Creating VideoCards As Feeds
+Here is the Folder for [Feed](src/Components/Feed)
+<br>
+The Feed component displays a grid of video cards that act as feeds, similar to the YouTube homepage.
+<br>
+Displays multiple video cards with:
+<br>
+
+o Thumbnail image
+
+o Video title
+
+o Channel name
+
+o View count and upload time
+
+Built with a responsive grid layout using CSS.
+
+#### How it works:
+
+o Thumbnail images are imported from the assets folder.
+
+o Each card contains static content (can be made dynamic in future).
+
+o Responsive design allows cards to adjust on different screen sizes.
+
+![Screenshot from 2025-03-22 09-23-54](https://github.com/user-attachments/assets/a3dc5d35-59a2-4e69-9a42-6796877cfc55)
+
+<b>Key Point: </b>
+The Feed component dynamically renders multiple VideoCard components.
