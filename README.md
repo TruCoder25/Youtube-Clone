@@ -118,3 +118,63 @@ When Menu Icon is clicked the feed looks as <br>
 
 <b>Key Point: </b>
 The Feed component dynamically renders multiple VideoCard components.
+<br>
+
+# Day 2 Progress (Developed App using API , Feed and Recommended Videos)
+
+### 1.Created Video Watch Page
+Here is the Folder for [Video Watch Page](src/Components/PlayVideo)
+o Embedded video player with controls (autoplay, mute, fullscreen)
+
+o Dynamic video details: title, views, likes, description, and publish date
+
+o Publisher section with channel logo and subscribe button
+
+o Comments section with sample user interactions
+
+o Recommended videos on the right side (responsive sidebar)
+
+![Screenshot from 2025-03-24 17-12-02](https://github.com/user-attachments/assets/251e565b-0d3b-471b-8b1c-30b1c673c382)
+
+<b>Key Point: </b>
+Smooth user navigation using React Router
+<br>
+
+### 2. API Integration for Feed:
+
+o Fetched data from YouTube Data API v3 to display trending and popular videos.
+
+o Used dynamic API calls based on selected categories.(Here Used useEffect and useState)
+
+o Stored and mapped API response to render video cards dynamically.
+
+o Implemented loading states for smooth user experience.
+
+o Handled errors and fallback UI if the API call fails.
+
+o Added routing so each video card redirects to its Video Watch Page with appropriate video details.
+
+![Screenshot from 2025-03-24 17-18-32](https://github.com/user-attachments/assets/34e89c96-6827-4d01-820d-a29ccb094395)
+
+<b>Key Point: </b>
+Working with this we have a lot of knowledge that How useState and useEffect Works
+<br>
+
+### Sidebar Navigation:
+
+o Implemented category-based navigation through the sidebar.
+
+o On clicking any category (like Gaming, Music, Sports, etc.), it dynamically triggers API calls to fetch videos related to that category.
+
+o Updated Feed.jsx to re-render video cards based on the selected category using props and useEffect hook.
+
+o Ensured seamless navigation between categories without reloading the page.
+
+![Screenshot from 2025-03-24 17-21-47](https://github.com/user-attachments/assets/58464ff1-61c7-4723-8eff-b964124d6b83)
+
+
+<b>Key Point: </b>
+The useState is very much important here.
+<br>
+
+
