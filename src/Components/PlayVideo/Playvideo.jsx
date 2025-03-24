@@ -12,7 +12,8 @@ import user_profile from '../../assets/user_profile.jpg'
 const Playvideo = () => {
   return (
     <div className='play-video'>
-        <video src={video1} controls autoPlay muted ></video>
+        {/* <video src={video1} controls autoPlay muted ></video> */}
+        <iframe  src="https://www.youtube.com/embed/Zb1zVeXLUf8?si=d8q8Sn54HocFIxQG" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         <h3>Best YouTube Channel To Learn Web Development</h3>
         <div className='play-video-info'>
             <p>1525 Views &bull; 2 days ago</p>
@@ -40,9 +41,8 @@ const Playvideo = () => {
             <img src={jack} alt="" />
             <div>
                 <p>
-                    GreatStack
+                    GreatStack </p>
                     <span>1M Subscribers</span>
-                </p>
             </div>
             <button>Subscribe</button>
         </div>
